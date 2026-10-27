@@ -1,0 +1,21 @@
+Vos appels, contacts et SMS sur votre montre Pebble. Pebble Phone Connect est le compagnon Android de la watchapp Phone & SMS.
+
+<b>Fonctionnalités</b>
+
+* Favoris présentés sous forme de cartes avec la photo des contacts
+* Annuaire des contacts par initiale, avec recherche vocale par nom ou surnom
+* Gestion des appels depuis la montre : état en direct, photo de l'appelant, durée, coupure du micro, sortie audio (combiné, haut-parleur, Bluetooth) et raccrochage
+* Journal des appels manqués, reçus, émis et refusés
+* Conversations SMS et RCS, avec le texte complet des messages et les photos
+* Réponses par dictée vocale, emoji ou réponses rapides prédéfinies
+* Reprise sur le téléphone : toute conversation peut être ouverte dans l'app de messagerie
+* Glance dans la liste des apps de la montre : dernier appel manqué ou message reçu
+* Prise en charge du double SIM : les réponses partent de la SIM qui a reçu la conversation
+* Taille du texte réglable pour les menus et les messages de la montre
+* Disponible en anglais et en français
+
+<b>Vie privée garantie par conception.</b> L'app n'a pas la permission d'accéder à Internet : vos contacts, appels et messages vont du téléphone à la montre, et nulle part ailleurs. La dictée est assurée par l'app Pebble.
+
+<b>Prérequis.</b> Android 12 ou plus récent, l'app Pebble, et la watchapp Phone & SMS sur une Pebble Time, Time Steel, Time Round, Pebble 2, Pebble 2 Duo, Time 2 ou Round 2.
+
+<b>Limites.</b> Les messages RCS sont affichés, mais les réponses partent en SMS : Android ne permet pas aux apps d'envoyer des RCS. Les conversations de groupe ne sont pas affichées. Vous aimeriez répondre en RCS ou aux groupes ? Ouvrez une demande de fonctionnalité sur GitHub, pour que nous puissions mesurer l'intérêt. Les appels se contrôlent depuis la watchapp, qui doit être ouverte pendant l'appel : assignez-la à un bouton de lancement rapide de la montre, elle s'ouvre alors directement sur l'appel.

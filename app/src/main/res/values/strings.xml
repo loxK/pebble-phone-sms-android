@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Pebble Phone Connect</string>
+    <string name="intro">Lets the Phone &amp; SMS watchapp read your contacts, call history and text messages, place calls and send dictated texts. Everything stays between this phone and your watch: the app has no internet access.</string>
+
+    <string name="summary_ready">Ready. Open Phone &amp; SMS on the watch.</string>
+    <plurals name="summary_todo">
+        <item quantity="one">%d step left.</item>
+        <item quantity="other">%d steps left.</item>
+    </plurals>
+    <string name="summary_optional">Ready. Call controls are optional.</string>
+
+    <string name="pebble_title">1. Pebble app</string>
+    <string name="pebble_linked_watch">Linked to %1$s. Watch connected: %2$s.</string>
+    <string name="pebble_linked_no_watch">Linked to %1$s. No watch connected right now.</string>
+    <string name="pebble_not_linked">Not linked yet. Your data is only shared with the Pebble app you pick.</string>
+    <string name="pebble_missing">No Pebble app found. Install the Pebble app first.</string>
+    <string name="pebble_link">Link</string>
+    <string name="pebble_change">Change</string>
+    <string name="pebble_pick">Pebble app</string>
+    <string name="pebble_test">Open on the watch</string>
+    <string name="pebble_test_ok">Opened on %1$s.</string>
+    <string name="pebble_test_failed">The watch did not open the app: %1$s</string>
+    <string name="pebble_test_unreachable">The Pebble app did not answer.</string>
+
+    <string name="permissions_title">2. Permissions</string>
+    <string name="permissions_granted">All granted.</string>
+    <plurals name="permissions_missing">
+        <item quantity="one">%d permission missing.</item>
+        <item quantity="other">%d permissions missing.</item>
+    </plurals>
+    <string name="permissions_grant">Grant</string>
+    <string name="permissions_settings">Android no longer asks: allow the permissions from the app settings.</string>
+
+    <string name="calls_title">3. Call controls (optional)</string>
+    <string name="calls_explain">Mute and speaker during a call. Android only allows them once this app is registered as a companion of your watch. This is a permission recorded by Android, not a new Bluetooth connection: the watch stays connected through the Pebble app.</string>
+    <string name="calls_ready">Allowed for %1$s.</string>
+    <string name="calls_not_paired">Not allowed: the watch can place a call and hang up, but not mute or switch to the speaker.</string>
+    <string name="calls_pair">Allow call control</string>
+    <string name="calls_pick_watch">Watch</string>
+    <string name="calls_no_watch">No paired Pebble found in the Bluetooth settings.</string>
+    <string name="calls_pair_failed">Call control not granted: %1$s</string>
+
+    <string name="replies_title">4. Quick replies</string>
+    <string name="replies_explain">Offered on the watch next to dictation and emoji, one per line, up to 10. The watch picks changes up the next time the app opens.</string>
+    <string name="replies_save">Save</string>
+    <string name="replies_saved">Quick replies saved.</string>
+    <string-array name="default_replies">
+        <item>On my way</item>
+        <item>I\'ll call you back</item>
+        <item>Busy right now</item>
+        <item>OK</item>
+        <item>Thanks!</item>
+        <item>Running late</item>
+    </string-array>
+
+    <string name="private_number">Private number</string>
+    <string name="mms_picture">[Photo]</string>
+    <string name="mms_attachment">[Attachment]</string>
+    <string name="settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="settings_watch">Watch</string>
+    <string name="menu_size_title">Menu text and icons</string>
+    <string name="message_size_title">Message text</string>
+    <string name="text_size_system">Same as the watch</string>
+    <string name="message_size_default">Same as notifications by default</string>
+    <string name="text_size_small">Small</string>
+    <string name="text_size_medium">Medium</string>
+    <string name="text_size_large">Large</string>
+    <string name="text_size_extra_large">Extra large</string>
+    <string name="text_size_explain">Applied the next time the app opens on the watch.</string>
+    <string name="glance_title">In the watch app list</string>
+    <string name="glance_latest">Latest missed call or text</string>
+    <string name="glance_missed_call">Latest missed call</string>
+    <string name="glance_sms">Latest text</string>
+    <string name="glance_none">Nothing</string>
+    <string name="glance_explain">Shown under the app name for a day. The watch can only update it from the app itself, so it is the latest event the last time the app was open.</string>
+    <string name="settings_sim">SIM</string>
+    <string name="sim_sms">Texts from</string>
+    <string name="sim_calls">Calls from</string>
+    <string name="sim_phone">Same as the phone</string>
+    <string name="sim_thread">SIM of the conversation</string>
+    <string name="sim_asks">The phone asks every time: %1$s is used.</string>
+    <string name="sim_explain">With \"SIM of the conversation\", a reply goes out from the SIM that received the messages, and a new message follows the phone.</string>
+    <string name="settings_app">App</string>
+    <string name="wallpaper_colors_title">Wallpaper colors</string>
+    <string name="wallpaper_colors_explain">Material You. Turn off if the colors look off: the app then takes those of its icon.</string>
+    <string name="about">About</string>
+    <string name="about_summary">Version, license, changelog</string>
+    <string name="about_version">Version</string>
+    <string name="about_license">License</string>
+    <string name="about_license_value">GNU AGPL 3.0 or later</string>
+    <string name="about_source">Source code</string>
+    <string name="about_credits">The \"Sent\" animation, the warning and SMS icons and the down arrow on the watch come from PebbleOS, under the Apache License 2.0.</string>
+    <string name="about_signature">Built with 🥥 and ☕ by Lox in Kanaky-New Caledonia 🇳🇨</string>
+    <string name="changelog">Changelog</string>
+</resources>

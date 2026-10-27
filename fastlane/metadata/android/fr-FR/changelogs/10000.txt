@@ -1,0 +1,1 @@
+Première version. Favoris, contacts, recherche vocale et journal d'appels sur la montre, appels avec micro coupé et sortie audio, conversations SMS et RCS avec leurs photos, réponses vocales, emoji ou réponses rapides, et le dernier appel manqué ou SMS dans la liste des apps de la montre. Vie privée garantie par conception : aucune permission Internet.

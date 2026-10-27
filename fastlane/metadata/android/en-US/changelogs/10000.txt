@@ -1,0 +1,1 @@
+First release. Favorites, contacts, voice search and call log on the watch, calls with mute and audio route, SMS and RCS conversations with their pictures, voice replies, emoji or quick replies, and the latest missed call or text in the watch launcher. Private by design: no internet permission.

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intro">Permet à l\'app montre Phone &amp; SMS de lire vos contacts, votre journal d\'appels et vos SMS, de passer des appels et d\'envoyer des SMS dictés. Tout reste entre ce téléphone et votre montre : l\'app n\'a pas accès à Internet.</string>
+
+    <string name="summary_ready">Prêt. Ouvrez Phone &amp; SMS sur la montre.</string>
+    <plurals name="summary_todo">
+        <item quantity="one">Encore %d étape.</item>
+        <item quantity="other">Encore %d étapes.</item>
+    </plurals>
+    <string name="summary_optional">Prêt. Le contrôle des appels est facultatif.</string>
+
+    <string name="pebble_title">1. App Pebble</string>
+    <string name="pebble_linked_watch">Liée à %1$s. Montre connectée : %2$s.</string>
+    <string name="pebble_linked_no_watch">Liée à %1$s. Aucune montre connectée pour l\'instant.</string>
+    <string name="pebble_not_linked">Pas encore liée. Vos données ne sont partagées qu\'avec l\'app Pebble que vous choisissez.</string>
+    <string name="pebble_missing">Aucune app Pebble trouvée. Installez d\'abord l\'app Pebble.</string>
+    <string name="pebble_link">Lier</string>
+    <string name="pebble_change">Changer</string>
+    <string name="pebble_pick">App Pebble</string>
+    <string name="pebble_test">Ouvrir sur la montre</string>
+    <string name="pebble_test_ok">Ouverte sur %1$s.</string>
+    <string name="pebble_test_failed">La montre n\'a pas ouvert l\'app : %1$s</string>
+    <string name="pebble_test_unreachable">L\'app Pebble n\'a pas répondu.</string>
+
+    <string name="permissions_title">2. Autorisations</string>
+    <string name="permissions_granted">Toutes accordées.</string>
+    <plurals name="permissions_missing">
+        <item quantity="one">%d autorisation manquante.</item>
+        <item quantity="other">%d autorisations manquantes.</item>
+    </plurals>
+    <string name="permissions_grant">Accorder</string>
+    <string name="permissions_settings">Android ne demande plus : accordez les autorisations depuis les réglages de l\'app.</string>
+
+    <string name="calls_title">3. Contrôle des appels (facultatif)</string>
+    <string name="calls_explain">Couper le micro et passer sur haut-parleur pendant un appel. Android ne le permet qu\'une fois cette app enregistrée comme compagnon de votre montre. C\'est une autorisation notée par Android, pas une nouvelle connexion Bluetooth : la montre reste connectée via l\'app Pebble.</string>
+    <string name="calls_ready">Autorisé pour %1$s.</string>
+    <string name="calls_not_paired">Non autorisé : la montre peut lancer un appel et raccrocher, mais pas couper le micro ni passer sur haut-parleur.</string>
+    <string name="calls_pair">Autoriser le contrôle des appels</string>
+    <string name="calls_pick_watch">Montre</string>
+    <string name="calls_no_watch">Aucune Pebble appairée dans les réglages Bluetooth.</string>
+    <string name="calls_pair_failed">Contrôle des appels non accordé : %1$s</string>
+
+    <string name="replies_title">4. Réponses rapides</string>
+    <string name="replies_explain">Proposées sur la montre à côté de la dictée et des emoji, une par ligne, 10 au plus. La montre prend les changements à la prochaine ouverture de l\'app.</string>
+    <string name="replies_save">Enregistrer</string>
+    <string name="replies_saved">Réponses rapides enregistrées.</string>
+    <string-array name="default_replies">
+        <item>J\'arrive</item>
+        <item>Je te rappelle</item>
+        <item>Occupé, je te rappelle</item>
+        <item>OK</item>
+        <item>Merci !</item>
+        <item>Je suis en retard</item>
+    </string-array>
+
+    <string name="private_number">Numéro masqué</string>
+    <string name="mms_picture">[Photo]</string>
+    <string name="mms_attachment">[Pièce jointe]</string>
+    <string name="settings">Réglages</string>
+    <string name="back">Retour</string>
+    <string name="settings_watch">Montre</string>
+    <string name="menu_size_title">Texte et icônes des menus</string>
+    <string name="message_size_title">Texte des messages</string>
+    <string name="text_size_system">Comme la montre</string>
+    <string name="message_size_default">Comme les notifications par défaut</string>
+    <string name="text_size_small">Petit</string>
+    <string name="text_size_medium">Moyen</string>
+    <string name="text_size_large">Grand</string>
+    <string name="text_size_extra_large">Très grand</string>
+    <string name="text_size_explain">Appliqué à la prochaine ouverture de l\'app sur la montre.</string>
+    <string name="glance_title">Dans la liste des apps de la montre</string>
+    <string name="glance_latest">Dernier appel manqué ou SMS</string>
+    <string name="glance_missed_call">Dernier appel manqué</string>
+    <string name="glance_sms">Dernier SMS</string>
+    <string name="glance_none">Rien</string>
+    <string name="glance_explain">Affiché sous le nom de l\'app pendant une journée. La montre ne peut le mettre à jour que depuis l\'app elle-même : c\'est le dernier événement connu à sa dernière ouverture.</string>
+    <string name="settings_sim">SIM</string>
+    <string name="sim_sms">SMS envoyés depuis</string>
+    <string name="sim_calls">Appels passés depuis</string>
+    <string name="sim_phone">Comme le téléphone</string>
+    <string name="sim_thread">SIM de la conversation</string>
+    <string name="sim_asks">Le téléphone demande à chaque fois : %1$s est utilisée.</string>
+    <string name="sim_explain">Avec «\u00A0SIM de la conversation\u00A0», une réponse part de la SIM qui a reçu les messages, et un nouveau message suit le réglage du téléphone.</string>
+    <string name="settings_app">Application</string>
+    <string name="wallpaper_colors_title">Couleurs du fond d\'écran</string>
+    <string name="wallpaper_colors_explain">Material You. À désactiver si les couleurs ne vous plaisent pas : l\'app prend alors celles de son icône.</string>
+    <string name="about">À propos</string>
+    <string name="about_summary">Version, licence, nouveautés</string>
+    <string name="about_version">Version</string>
+    <string name="about_license">Licence</string>
+    <string name="about_license_value">GNU AGPL 3.0 ou ultérieure</string>
+    <string name="about_source">Code source</string>
+    <string name="about_credits">L\'animation «\u00A0Envoyé\u00A0», les icônes d\'alerte et de SMS et la flèche de la montre viennent de PebbleOS, sous licence Apache 2.0.</string>
+    <string name="about_signature">Fait avec 🥥 et ☕ par Lox en Kanaky-Nouvelle-Calédonie 🇳🇨</string>
+    <string name="changelog">Nouveautés</string>
+</resources>
