@@ -62,8 +62,9 @@ The settings (⚙️) hold the text sizes of the watch, what its launcher shows 
 
 > [!NOTE]
 > **Installing the APK from GitHub.** Google Play Protect may flag Pebble Phone Connect as unknown: the app reads text messages and the call log, and is not distributed through the Play Store. Choose **Install anyway**. The APK can be checked as described under [Download & verify](#download--verify).
->
-> Android also restricts the SMS and call log permissions of an app installed from a downloaded file. If the permission step cannot grant them, open the app info screen (long press on the icon, then App info), open the ⋮ menu, choose **Allow restricted settings**, and grant the permissions again.
+
+> [!IMPORTANT]
+> **Restricted settings.** Android also restricts the SMS and call log permissions of an app installed from a downloaded file. If the permission step cannot grant them, open the app info screen (long press on the icon, then App info), open the ⋮ menu, choose **Allow restricted settings**, and grant the permissions again.
 
 > [!NOTE]
 > **About call control.** Android registers Pebble Phone Connect as a companion app of your watch. This lets it control calls in progress (mute, speaker, hang up) and open your messaging app when the watch asks. It is a permission, not a Bluetooth pairing: the watch stays connected through the Pebble app. Without it, the watch can still place a call and hang up.
